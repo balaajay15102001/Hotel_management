@@ -1,0 +1,57 @@
+
+<web-app>
+    <servlet>
+        <servlet-name>booking</servlet-name>
+        <servlet-class>booking</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+         <servlet-name>booking</servlet-name>
+         <url-pattern>/booking</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>adminupdate</servlet-name>
+        <servlet-class>adminupdate</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+         <servlet-name>adminupdate</servlet-name>
+         <url-pattern>/adminupdate</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>delete</servlet-name>
+        <servlet-class>delete</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+         <servlet-name>delete</servlet-name>
+         <url-pattern>/delete</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>search</servlet-name>
+        <servlet-class>search</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+         <servlet-name>search</servlet-name>
+         <url-pattern>/search</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>update</servlet-name>
+        <servlet-class>update</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+         <servlet-name>update</servlet-name>
+         <url-pattern>/update</url-pattern>
+    </servlet-mapping>
+
+<session-config>
+  <session-timeout>300</session-timeout>
+</session-config>
+    
+</web-app>

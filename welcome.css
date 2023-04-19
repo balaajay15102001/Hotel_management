@@ -1,0 +1,65 @@
+.back{
+   background-color: blanchedalmond;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.welcom.h1{
+    text-align: center;
+    font-family: Impact;
+    font-size: xxx-large;
+}
+.details h2{
+    text-align: center;
+    font-family: Impact;
+    font-size: xx-large;
+}
+
+.welcom{
+    border: 1px solid;
+    border-radius: 25px;
+    background-color: rgba(0,0,0, 0.1);
+    margin: 150px;
+}
+h2{
+    margin: 20px;
+    color: black;
+}
+section{
+    position: absolute;
+    top:0;
+}
+.details{
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: center;
+    flex-direction: row;
+    color: black;
+    height: 30vh;
+
+}
+.login{
+    border: 1px solid;
+    border-radius: 25px;
+    width:30%;
+}
+img{
+    border-radius: 25px;
+}
+.sign{
+    border: 1px solid;
+    border-radius: 25px;
+    width:30%;
+}
+.login:hover{
+    transform: scale(1.1);
+    box-shadow: 9px 6px 30px 13px rgba(0,0,0,0.75);
+}
+.sign:hover{
+    transform: scale(1.1);
+    box-shadow: 9px 6px 30px 13px rgba(0,0,0,0.75);
+}
